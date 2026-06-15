@@ -8,8 +8,6 @@ from qiskit_aer.primitives import EstimatorV2 as StatevectorEstimator
 from qiskit.primitives import StatevectorSampler
 from qiskit import transpile
 from qiskit_aer import AerSimulator
-
-# IMPORTANT: If this import fails, run `pip install qiskit-algorithms` in your terminal
 from qiskit_algorithms.optimizers import SPSA 
 
 # ==========================================
