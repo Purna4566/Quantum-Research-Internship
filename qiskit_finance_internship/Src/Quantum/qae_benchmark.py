@@ -38,7 +38,7 @@ def run_classical_monte_carlo(num_samples):
     return estimated_prob, num_samples, runtime, accuracy
 
 # ==========================================
-# 3. QUANTUM AMPLITUDE ESTIMATION (YOUR BUILD)
+# 3. QUANTUM AMPLITUDE ESTIMATION 
 # ==========================================
 def build_quantum_problem():
     amplitudes = np.sqrt(MARKET_PROBS)
