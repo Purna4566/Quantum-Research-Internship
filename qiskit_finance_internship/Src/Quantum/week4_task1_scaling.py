@@ -131,7 +131,7 @@ def run_qaoa_scaling_test(n_assets, p_layers):
 # ==========================================
 
 if __name__ == "__main__":
-    asset_scales = [10, 20, 29] 
+    asset_scales = [10, 20, 30] 
     depths = [1, 2, 3]
     for n in asset_scales:
         for p in depths:
